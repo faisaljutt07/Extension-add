@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;
+}
+
+p , h3 {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    min-width: 100px;
+    width: 300px;
+        /* display: flex; */
+}
+.container{
+    width: 100%;
+    padding: 5%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  lightgray;
+    border-radius: 30px;
+    padding: 10px;
+    backdrop-filter: blur(4px);
+    margin: 100%;
+    margin-top: 100px;
+
+}
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    margin-left: 6px;
+    
+}
+.search-bar button img{
+    width: 25px;
+
+
+}
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: darkgray;
+    cursor: pointer;
+}
+
+.last-button {
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: darkgray;
+    cursor: pointer;
+    align-items: center;
+}
+.email-input label{
+    margin-right: 22px;
+    margin-bottom: 20px;
+    border: 0;
+}
+.email-input {
+    /* background: red; */
+    margin-bottom: 10px;
+}
